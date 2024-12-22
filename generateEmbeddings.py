@@ -2,7 +2,7 @@ import PyPDF2
 import google.generativeai as gemini
 import json
 
-gemini.configure(api_key="YOUR GEMINI API KEY GOES HERE")
+gemini.configure(api_key="AIzaSyC1xOKaJPP0p5Y493lIQ5HnKgfx93Y6bj0")
 
 # Function to read PDF content, split into sentences, and generate embeddings
 def process_pdf(pdf_path, output_file):

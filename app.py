@@ -3,7 +3,7 @@ from typing import List, Tuple, Dict
 import numpy as np
 import google.generativeai as gemini
 
-gemini.configure(api_key="YOUR GEMINI API KEY GOES HERE")
+gemini.configure(api_key="Put Your Gemini API Key Here")
 
 class Embedding:
     def __init__(self, sentence: str, embedding: List[float]):
